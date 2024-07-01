@@ -1,0 +1,15 @@
+{
+  "originHash" : "18c105976bada083c5dcaf108b8459d38179f259e5ff78f9969a0541743f8d50",
+  "pins" : [
+    {
+      "identity" : "swift-dotnetmetadata",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tristanlabelle/swift-dotnetmetadata",
+      "state" : {
+        "branch" : "main",
+        "revision" : "91047f42409a5cd41f530f2e801e0d4dc27b2782"
+      }
+    }
+  ],
+  "version" : 3
+}

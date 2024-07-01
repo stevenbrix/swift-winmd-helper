@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:arc-core-winmd-helper}",
+            "name": "Debug arc-core-winmd-helper",
+            "program": "${workspaceFolder:arc-core-winmd-helper}\\.build\\debug\\arc-core-winmd-helper.exe",
+            "preLaunchTask": "swift: Build Debug arc-core-winmd-helper"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:arc-core-winmd-helper}",
+            "name": "Release arc-core-winmd-helper",
+            "program": "${workspaceFolder:arc-core-winmd-helper}\\.build\\release\\arc-core-winmd-helper.exe",
+            "preLaunchTask": "swift: Build Release arc-core-winmd-helper"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:arc-core-winmd-helper}",
+            "name": "Debug winmd-helper",
+            "program": "${workspaceFolder:arc-core-winmd-helper}\\.build\\debug\\winmd-helper.exe",
+            "preLaunchTask": "swift: Build Debug winmd-helper"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:arc-core-winmd-helper}",
+            "name": "Release winmd-helper",
+            "program": "${workspaceFolder:arc-core-winmd-helper}\\.build\\release\\winmd-helper.exe",
+            "preLaunchTask": "swift: Build Release winmd-helper"
+        }
+    ]
+}
